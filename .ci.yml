@@ -1,2 +1,2 @@
 build:
-  run: cd /root/app && npm test
+  run: cd /app && npm test
