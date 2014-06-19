@@ -2,3 +2,9 @@ build:
   run:
     - cd /app
     - npm test
+
+plugins:
+- docker_publish:
+    repository: index.dev.chappy.co
+    name: test/test
+    tag: $DOTCI_SHA
