@@ -1,4 +1,4 @@
 build:
   run: cd /app && npm test
 
-  after: echo "hello"
+after: echo "hello"
