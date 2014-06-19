@@ -1,2 +1,3 @@
 build:
   run: cd /app && npm test
+  after: echo $BUILD_ID
