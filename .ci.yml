@@ -1,6 +1,7 @@
 build:
   info:
     - echo "Env:" ; env
+    - echo $BUILD_ID
   run:
     - cd /app
     - npm test
