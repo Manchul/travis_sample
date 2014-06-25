@@ -1,8 +1,7 @@
-
 build:
   info:
     - echo "Env:" ; env
-    - echo <% print "CHUL" %>
+    - echo ${BUILD_ID}
 
   run:
     - cd /app
