@@ -2,7 +2,7 @@
 build:
   info:
     - echo "Env:" ; env
-    - echo $BUILD_ID
+    - echo <% print "CHUL" %>
 
   run:
     - cd /app
