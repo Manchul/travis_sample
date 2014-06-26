@@ -1,10 +1,6 @@
 build:
   info:
     - echo "Env:" ; env
-    - echo ${BUILD_ID}
-    - echo ${JOB_NAME}
-    - echo ${BUILD_TAG}
-    - echo ${BUILD_NUMBER}
 
   run:
     - cd /app
